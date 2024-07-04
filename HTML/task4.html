@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    :root{
+        --text-color: black;
+        --heading-font-size: 2em;
+    }
+
+    body {
+
+        background-image: linear-gradient(to top left, skyblue, transparent 80%),
+            url("https://images.pexels.com/photos/311039/pexels-photo-311039.jpeg?auto=compress&cs=tinysrgb&w=600");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        color: var(--text-color);
+
+    }
+
+    i {
+        font-size: var(--heading-font-size);
+    }
+
+    .company {
+        font-size: 2.57em;
+        font-variant: small-caps;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    li {
+        list-style: none;
+        padding: 0px 10px;
+
+    }
+
+    a {
+        text-decoration-line: none;
+        font-size: X-large;
+        font-weight: bold;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: var(--text-color);
+
+    }
+
+    ul {
+        display: flex;
+        margin: auto;
+
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 10px;
+
+    }
+
+    li:hover {
+        border-bottom: 2px solid var(--text-color);
+        background-color: rgb(228, 209, 209);
+        transition-duration: 1S;
+        box-shadow: 10px 10px 5px grey;
+    }
+
+    li:active {
+        background-color:indianred;
+    }
+
+    :target {
+        background-color: grey;
+        color: rgb(39, 105, 61);
+        padding: 5px 15px;
+    }
+
+    img {
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        object-position: right;
+    }
+
+    main {
+        display: flex;
+        justify-content: space-between;
+    }
+    #icon{
+       position: absolute;
+       top:50px;
+       right:60px;
+       animation-name: user;
+       animation-duration: 5s;
+       animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+    }
+    @keyframes user{
+        from{
+
+        }to{
+            tm
+        }
+    }
+
+</style>
+
+<body>
+    <header>
+        <div>
+            <i id="icon" class='bx bx-user'></i>
+            <span class="company">Conical</span>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="#hom">Home</a></li>
+                    <li><a href="#pag">Page</a></li>
+                    <li><a href="#por">Portfolio</a></li>
+                    <li><a href="#blo">Blog</a></li>
+                    <li><a href="#sh">Shop</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quas maxime culpa qui, 
+        commodi illum deleniti! Distinctio possimus porro nesciunt adipisci perspiciatis veniam amet 
+        dolorem ad maxime laborum, nam incidunt velit! Nemo odio, 
+        quod provident ut esse ad quas optio voluptatibus aliquam rem.</p> -->
+        <div>
+            <h1 id="hom">home</h1>
+            <h1 id="pag">page</h1>
+            <h1 id="por">portfolio</h1>
+            <h1 id="blo">blog</h1>
+            <h1 id="sh">shop</h1>
+        </div>
+        <divS>
+            <img src="https://images.pexels.com/photos/1275417/pexels-photo-1275417.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="">
+            </div>
+
+    </main>
+</body>
+
+</html>

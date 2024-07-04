@@ -1,0 +1,22 @@
+p{
+    margin: 10px 20px 50px 50px;
+    background-color:plum;
+    border-width: 5px;
+    border-style:inset;
+    border-color:hotpink;
+    padding: 30px;
+}
+*{
+    background-color:lightpink;
+}
+div{
+    width: fit-content;
+    margin:auto;
+}
+
+#img1{
+    height:300px;
+    width:300px;
+    border: 5px solid red;
+    border-radius: 80%;
+}

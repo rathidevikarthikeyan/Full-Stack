@@ -1,0 +1,50 @@
+#icon{
+    width:150px;
+    float:left;
+}
+.nav{
+   display:flex;
+  
+  
+}
+   a:hover{
+    border-bottom: 2px solid rgb(15, 15, 60);
+    background-color:honeydew;
+}
+li{
+    padding: 10px;
+}
+ul{
+list-style: none;
+display:flex;
+margin-left:600px;
+
+}
+li{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:black;
+}
+.nav a{
+    text-decoration: none;
+}
+
+div.div3 img{
+    border-radius: 50px;
+    margin:10px;
+    height:170px;
+    width:170px;
+}
+h2,p,li{
+    color:rgb(15, 15, 60);
+}
+div.div1 li a{
+    list-style: none;
+    text-decoration: none;
+    padding:10px;
+    display: flex;
+}
+
+footer h2{
+    text-align: center;
+}

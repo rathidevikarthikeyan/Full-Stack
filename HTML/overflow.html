@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.lorel{
+            width: 500px;
+           overflow: scroll hidden;
+        }
+        p{
+            width:700px;
+            height: 200px;
+            cursor:grab;
+           
+        }
+        p:active{
+            cursor: grabbing;
+        }
+        div.child{
+            height:150px;
+            width:60px;
+            background-color: hotpink;
+        }
+       div.parent{
+         display:flex;
+         justify-content:space-around;
+         flex-wrap: wrap;
+        
+       }
+       div.child:hover{
+        background-image:linear-gradient(rgb(255, 0, 93), transparent 100%);
+       }
+       @media screen  and (max-width:500px){
+        
+        .parent{
+            background-color: aqua;
+        }
+       }
+    </style>
+</head>
+<body>
+    <div class="lorel">
+        <P>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis porro
+         quod dolore dignissimos cum incidunt veniam, illo aperiam repellat libero
+          inventore id? Impedit velit animi 
+        dolor et atque quo unde sit odio voluptatibus! Aut quae 
+        rem sit doloremque iusto aliquam?</P></div>
+
+        <br><br><br><br><br>
+       <div class="parent">
+        <div class="child">Kgcas</div>
+        <div class="child">Kgcas</div>
+        <div class="child">Kgcas</div>
+        <div class="child">Kgcas</div>
+       </div>
+        
+
+
+
+      
+</body>
+</html>

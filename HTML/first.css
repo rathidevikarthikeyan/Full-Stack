@@ -1,0 +1,31 @@
+p{
+    background-color:paleturquoise;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.head{
+    background-color: cornflowerblue;
+}
+#para{
+       background-color: darkolivegreen;
+}
+div p{
+    background-color: dimgray;
+
+}
+div.div1>p{
+    color: pink;
+}
+section>p{
+    background-color:rgb(128, 128, 128);
+}
+div.div3 p{
+    background-color: hotpink;
+}
+div.div3~p{
+    color: red;
+}
+*{
+    background-color:plum;
+}
+
